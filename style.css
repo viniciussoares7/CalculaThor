@@ -252,12 +252,51 @@ footer .social i.icon-youtube:hover {
 /* script to changing color  */
 
 /*------------------- MEDIA QUERIES -----------------------*/
-/* extra large devices: >1200 */
-/* large devices: >1023 */
-/* large devices: >992 */
-/* small devices: >450 */
-/* medium devices: >767 */
-/* medium devices: >420 */
+
+@media (max-width: 768px) {
+  #header {
+    width: 100%;
+  }
+  .container {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .calculator {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    border-radius: 1rem;
+
+    background-color: var(--background-calculator-color);
+  }
+
+  footer .social i {
+    font-size: 1.5rem;
+    border-right: 0.5rem;
+  }
+
+  footer .containerFooter {
+    height: 2.5rem;
+    display: flex;
+
+    padding: 2rem;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  footer .logo.logo-alt {
+    font: 500 1.5rem var(--title-font);
+  }
+  footer .brand p {
+    color: var(--text-color-light);
+  }
+}
 
 @media (max-width: 420px) {
   #header {
@@ -273,6 +312,51 @@ footer .social i.icon-youtube:hover {
   .calculator {
     position: absolute;
     top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    border-radius: 1rem;
+
+    background-color: var(--background-calculator-color);
+  }
+
+  footer .social i {
+    font-size: 1.5rem;
+    border-right: 0.5rem;
+  }
+
+  footer .containerFooter {
+    height: 2.5rem;
+    display: flex;
+
+    padding: 2rem;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  footer .logo.logo-alt {
+    font: 500 1.5rem var(--title-font);
+  }
+  footer .brand p {
+    color: var(--text-color-light);
+  }
+}
+
+@media (max-width: 320px) {
+  #header {
+    width: 100%;
+  }
+  .container {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .calculator {
+    position: absolute;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 1rem;
