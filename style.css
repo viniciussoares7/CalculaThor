@@ -268,36 +268,35 @@ footer .social i.icon-youtube:hover {
     justify-content: space-between;
     width: 90%;
   }
-}
+  .calculator {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    border-radius: 1rem;
 
-.calculator {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 1rem;
-  border-radius: 1rem;
+    background-color: var(--background-calculator-color);
+  }
 
-  background-color: var(--background-calculator-color);
-}
+  footer .social i {
+    padding: 0rem;
+  }
 
-footer .social i {
-  padding: 0rem;
-}
+  footer .containerFooter {
+    height: 2.5rem;
+    display: flex;
 
-footer .containerFooter {
-  height: 2.5rem;
-  display: flex;
+    padding: 2rem;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+  }
 
-  padding: 2rem;
-  align-items: center;
-  gap: 2rem;
-  width: 100%;
-}
-
-footer .logo.logo-alt {
-  font: 500 1.5rem var(--title-font);
-}
-footer .brand p {
-  color: var(--text-color-light);
+  footer .logo.logo-alt {
+    font: 500 1.5rem var(--title-font);
+  }
+  footer .brand p {
+    color: var(--text-color-light);
+  }
 }
