@@ -256,6 +256,8 @@ footer .social i.icon-youtube:hover {
 /* large devices: >1023 */
 /* large devices: >992 */
 /* small devices: >450 */
+/* medium devices: >767 */
+/* medium devices: >420 */
 
 @media (max-width: 420px) {
   #header {
@@ -280,7 +282,8 @@ footer .social i.icon-youtube:hover {
   }
 
   footer .social i {
-    padding: 0rem;
+    font-size: 1.5rem;
+    border-right: 0.5rem;
   }
 
   footer .containerFooter {
