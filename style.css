@@ -17,7 +17,7 @@
   --background-keys-color: rgb(31, 31, 31);
   --text-key-color: rgb(255, 255, 255);
   --text-color-light: hsla(0, 0%, 98%, 1);
-  --span-color:rgb(195, 41, 195);
+  --span-color: rgb(195, 41, 195);
 
   --title-color: rgb(255, 255, 255);
   --text-color: black;
@@ -26,12 +26,10 @@
   --title-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   --text-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   --key-font: 'Courier New', Courier, monospace;
-
-  
 }
 
-a{
-  text-decoration: none
+a {
+  text-decoration: none;
 }
 /*------------------- header -----------------------*/
 #header {
@@ -84,7 +82,7 @@ a{
   cursor: pointer;
 }
 
-.toggle.icon-github:hover{
+.toggle.icon-github:hover {
   font-size: 2.5rem;
 }
 /*------------------- BASE -----------------------*/
@@ -109,8 +107,8 @@ a{
 }
 
 .calculator h1:hover {
-  transition: .5s;
-  color: var(--span-color)   
+  transition: 0.5s;
+  color: var(--span-color);
 }
 
 #zero {
@@ -163,10 +161,13 @@ a{
   background-color: white;
 
   text-align: right;
-  
 
   border-style: white;
   margin-bottom: 1rem;
+}
+p.show {
+  padding-right: 0.5rem;
+  max-width: 13rem;
 }
 
 /*------------------- FOOTER -----------------------*/
@@ -201,7 +202,6 @@ footer .social i {
 footer .social {
   display: flex;
   transition: 0.5s;
-  font
 }
 
 footer .social a:hover {

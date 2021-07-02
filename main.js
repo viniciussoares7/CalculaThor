@@ -1,13 +1,15 @@
 function insert(num) {
   var number = document.querySelector('.show').innerHTML
-  document.querySelector('.show').innerHTML = number + num
+  if (number.length <= 20) {
+    document.querySelector('.show').innerHTML = number + num
+  }
 }
 
 function c() {
   document.querySelector('.show').innerHTML = ''
 }
 
-function backspace() {
+function backspace(num) {
   var result = document.querySelector('.show').innerHTML
   document.querySelector('.show').innerHTML = result.substring(
     0,
