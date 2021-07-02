@@ -1,0 +1,124 @@
+/*------------------- RESET -----------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------------------- VARIABLES -----------------------*/
+
+/* Colors */
+:root {
+  --header-color: rgb(169, 189, 207);
+  --base-color: rgb(129, 63, 63);
+  --base-color-second: rgb(248, 82, 82);
+  --footer-color: rgb(230, 157, 157);
+  --background-calculator-color: rgba(0, 0, 0, 0.85);
+  --background-keys-color: rgb(31, 31, 31);
+  --text-key-color: rgb(255, 255, 255);
+
+  --title-color: black;
+  --text-color: black;
+
+  /* fonts */
+  --title-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  --text-font: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  --key-font: 'Courier New', Courier, monospace;
+}
+
+/*------------------- header -----------------------*/
+.header {
+  background-color: var(--header-color);
+  font-family: var(--title-font);
+}
+
+/*------------------- BASE -----------------------*/
+
+#background {
+  font-family: var(--text-font);
+  background-image: linear-gradient(
+    45deg,
+    var(--base-color),
+    var(--base-color-second)
+  );
+  height: 100vh;
+  text-align: center;
+}
+
+.calculator h1 {
+  font-family: var(--title-font);
+  color: white;
+  text-align: center;
+
+  padding: 1rem;
+}
+
+.calculator h1:hover {
+  font-size: 2.1rem;
+  transition: 1s;
+  color: blueviolet;
+}
+
+#zero {
+  width: 100%;
+}
+#equal {
+  height: 6.4rem;
+}
+.calculator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+  border-radius: 1rem;
+
+  background-color: var(--background-calculator-color);
+}
+.calculator button {
+  color: var(--text-key-color);
+  background-color: var(--background-keys-color);
+  height: 3.125rem;
+  width: 3.125rem;
+  font-family: var(--key-font);
+  font-size: 1.5rem;
+  border: none;
+}
+.calculator button:hover {
+  transition: 0.5s;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+/*------------------- INPUT -----------------------*/
+#input {
+  width: 98.5%;
+  height: 4rem;
+  margin-left: 0.125rem;
+
+  font-family: var(--title-font);
+  color: rgba(0, 0, 0, 0.5);
+  background-color: white;
+  text-align: center;
+
+  border-style: white;
+  padding: 0.3rem;
+}
+
+/*------------------- CONTACT -----------------------*/
+
+/*------------------- FOOTER -----------------------*/
+footer .social {
+  background-color: var(--footer-color);
+}
+/*------------------- back to top -----------------------*/
+
+/* script to changing color  */
+
+/*------------------- MEDIA QUERIES -----------------------*/
+/* extra large devices: >1200 */
+/* large devices: >1023 */
+/* large devices: >992 */
+/* medium devices: >767 */
