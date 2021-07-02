@@ -106,11 +106,6 @@ a {
   padding: 1rem;
 }
 
-.calculator h1:hover {
-  transition: 0.5s;
-  color: var(--span-color);
-}
-
 #zero {
   width: 100%;
 }
@@ -126,6 +121,10 @@ a {
   border-radius: 1rem;
 
   background-color: var(--background-calculator-color);
+}
+.calculator img {
+  max-height: 5rem;
+  max-width: auto;
 }
 .calculator button {
   color: var(--text-key-color);
