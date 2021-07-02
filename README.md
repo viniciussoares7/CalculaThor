@@ -3,7 +3,7 @@
 <h1 align="center"> Hello! :metal:</h1>
 <h1 align="center"> CalculaTHOR with HTML, CSS e JavaScript!</h1>
 <p align="center">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur magni accusamus eveniet facilis quisquam tempora ex! Corporis iste dolorem nihil sequi fugit molestiae non repudiandae deserunt rerum, quis architecto at..</p>
+Simple calculator project created with the intention of to practice the studied contents.</p>
 <h2 align="center"> :link: Click bellow to see the project</h2>
 <p align="center"> <a href="https://viniciussoares7.github.io/CalculaThor/" target="_blank"> <img src="https://github.com/viniciussoares7/CalculaThor/blob/main/assets/imgs/456.png?raw=true" alt="linkProject" style="zoom:50%;" width="200px" height="auto"/> </p>
 
