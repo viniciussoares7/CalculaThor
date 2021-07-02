@@ -54,7 +54,6 @@
 }
 
 .calculator h1:hover {
-  font-size: 2.1rem;
   transition: 1s;
   color: blueviolet;
 }
@@ -96,13 +95,9 @@
   height: 0.4rem;
   width: auto;
 }
-.calculator .icon-backspace:hover {
-  color: red;
-  transition: 0.5s;
-}
 
 /*------------------- show -----------------------*/
-#show {
+.show {
   width: 98.5%;
   height: 2rem;
   margin-left: 0.125rem;
