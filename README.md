@@ -1,4 +1,4 @@
-<h3 align="center" ><img src="https://github.com/viniciussoares7/CalculaThor/blob/main/assets/imgs/123.png?raw=true" alt="calculathor" style="zoom:50%;" width="1000px" height="auto"/></h3>
+<h3 align="center" ><img src="https://github.com/viniciussoares7/CalculaThor/blob/main/assets/imgs/S123.jpg?raw=true" alt="calculathor" style="zoom:50%;" width="1000px" height="auto"/></h3>
 
 <h1 align="center"> Hello! :metal:</h1>
 <h1 align="center"> CalculaTHOR with HTML, CSS e JavaScript!</h1>
