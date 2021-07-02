@@ -92,16 +92,26 @@
   cursor: pointer;
 }
 
-/*------------------- INPUT -----------------------*/
-#input {
+.icon-backspace {
+  height: 0.4rem;
+  width: auto;
+}
+.calculator .icon-backspace:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+/*------------------- show -----------------------*/
+#show {
   width: 98.5%;
-  height: 4rem;
+  height: 2rem;
   margin-left: 0.125rem;
 
   font-family: var(--title-font);
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 1);
   background-color: white;
-  text-align: center;
+
+  text-align: right;
 
   border-style: white;
   padding: 0.3rem;
