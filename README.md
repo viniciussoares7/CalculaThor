@@ -5,7 +5,9 @@
 <p align="center">
 Simple calculator project created with the intention of to practice the studied contents.</p>
 <h2 align="center"> :link: Click bellow to see the project</h2>
-<h3 align="center">Deploy:</h3><p align="center"> <a href="https://viniciussoares7.github.io/CalculaThor/" target="_blank"> <img src="https://github.com/viniciussoares7/CalculaThor/blob/main/assets/imgs/456.png?raw=true" alt="linkProject" style="zoom:50%;" width="200px" height="auto"/> </p>
+<h3 align="center">Deploy: https://viniciussoares7.github.io/CalculaThor/</h3>
+<p align="center">or</p>
+<p align="center"> <a href="https://viniciussoares7.github.io/CalculaThor/" target="_blank"> <img src="https://github.com/viniciussoares7/CalculaThor/blob/main/assets/imgs/456.png?raw=true" alt="linkProject" style="zoom:50%;" width="200px" height="auto"/> </p>
 
 <h2 align="center">🔧 Technologies & Tools</h2>
 
